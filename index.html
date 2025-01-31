@@ -1,8 +1,17 @@
 <head>
-
+    <link rel="stylesheet" href="mystyle.css">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script src="myscript.js"></script>
 </head>
 
 <body>
+    <label for="alignment">Choose text alignment:</label>
+
+    <select name="alignment" id="alignment" onchange="handleAlignmentChange()">
+        <option value="left">Left</option>
+        <option selected value="center">Center</option>
+        <option value="right">Right</option>
+    </select>
     <h1>Test</h1>
     <p>This is some text.</p>
     <p>I've made changes.</p>
