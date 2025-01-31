@@ -5,3 +5,13 @@ h1 {
 p {
     text-align: center;
 }
+
+.default {
+    background-color: white;
+    color: black;
+}
+
+.inverse {
+    background-color: black;
+    color: white;
+}
