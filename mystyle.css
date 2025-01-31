@@ -15,3 +15,18 @@ p {
     background-color: black;
     color: white;
 }
+
+.xmas {
+    background-color: forestgreen;
+    color: darkred;
+}
+
+.candy {
+    background-color:darkmagenta;
+    color: gold;
+}
+
+.matrix {
+    background-color: darkgreen;
+    color:chartreuse;
+}
