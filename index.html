@@ -1,29 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Full Stack Developer</title>
     <link rel="stylesheet" href="mystyle.css">
-    <script type="text/javascript" src="jquery-3.3.1.js"></script>
-    <script src="myscript.js"></script>
 </head>
-
 <body>
-    <label for="alignment">Choose alignment for H1:</label>
-    <select name="alignment" id="alignment" onchange="handleAlignmentChange()">
-        <option value="left">Left</option>
-        <option selected value="center">Center</option>
-        <option value="right">Right</option>
-    </select>
 
-    <h1>Test</h1>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1>Bradley D Thompson</h1>
+            <p>Full Stack Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <label for="paragraphcolor">Choose color scheme for P:</label>
-    <select name="paragraphcolor" id="paragraphcolor" onchange="handlePColorChange()">
-        <option selected value="default">Default</option>
-        <option value="inverse">Inverse</option>
-        <option value="xmas">Christmas</option>
-        <option value="candy">Nerds</option>
-        <option value="matrix">Matrix</option>
-    </select>
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                As a passionate full stack developer, I build dynamic and responsive web applications. I specialize in both front-end and back-end development, and I love tackling new challenges. My goal is to create efficient and scalable applications that provide an excellent user experience.
+            </p>
+        </div>
+    </section>
 
-        <p>This is some text.</p>
-        <p>I've made changes.</p>
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3 (Sass, LESS)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React.js / Vue.js</li>
+                        <li>Responsive Design</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Node.js / Express.js</li>
+                        <li>Python (Django, Flask)</li>
+                        <li>RESTful APIs</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <ul>
+                        <li>MongoDB / PostgreSQL</li>
+                        <li>Git / GitHub</li>
+                        <li>Docker / Kubernetes</li>
+                        <li>AWS / Azure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project Title 1</h3>
+                <p>A brief description of your project. Talk about what it does, the problem it solves, and the technologies you used.</p>
+                <a href="#" class="project-link">View Project</a>
+                <a href="#" class="project-link">GitHub Repo</a>
+            </div>
+            <div class="project-item">
+                <h3>Project Title 2</h3>
+                <p>Another project description. Use this space to showcase a different set of skills or a different type of project.</p>
+                <a href="#" class="project-link">View Project</a>
+                <a href="#" class="project-link">GitHub Repo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Ready to connect? Find me online:</p>
+            <div class="social-links">
+                <a href="www.linkedin.com/in/bradley-thompson-9886b2166" target="_blank">LinkedIn</a>
+                <a href="https://github.com/bradleydarellthompson" target="_blank">GitHub</a>
+                <a href="mailto:bradleydarellthompson@gmail.com">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bradley D Thompson</p>
+        </div>
+    </footer>
+
+    <script src="myscript.js"></script>
 </body>
+</html>

@@ -1,17 +1,13 @@
-function handleAlignmentChange() {
-    var selectedAlign = document.getElementById("alignment").value;
-    const h1Element = document.querySelector('h1');
-    h1Element.style.textAlign = selectedAlign;
-}
+document.addEventListener('DOMContentLoaded', () => {
+    console.log("Resume website loaded!");
 
-document.getElementById("alignment").addEventListener("change", handleAlignmentChange);
-
-function handlePColorChange() {
-    var selectedColor = document.getElementById("paragraphcolor").value;
-    const pElements = document.querySelectorAll('p');
-    pElements.forEach(pElement => {
-        pElement.className = selectedColor;
+    // Example of a simple interactive element
+    const navLinks = document.querySelectorAll('header nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href').substring(1);
+            document.getElementById(targetId).scrollIntoView({ behavior: 'smooth' });
+        });
     });
-}
-
-document.getElementById("paragraphcolor").addEventListener("change", handlePColorChange);
+});

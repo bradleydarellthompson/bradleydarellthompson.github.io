@@ -1,32 +1,112 @@
-h1 {
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #e2e2e2;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
     text-align: center;
 }
 
-p {
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Skills Section Styling */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+.skill-category {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Projects Section Styling */
+.project-item {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project-link {
+    display: inline-block;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.project-link:hover {
+    background-color: #285e8e;
+}
+
+/* Contact Section Styling */
+.social-links a {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    background-color: #555;
+}
+
+/* Footer Styling */
+footer {
     text-align: center;
-}
-
-.default {
-    background-color: white;
-    color: black;
-}
-
-.inverse {
-    background-color: black;
-    color: white;
-}
-
-.xmas {
-    background-color: forestgreen;
-    color: darkred;
-}
-
-.candy {
-    background-color:darkmagenta;
-    color: gold;
-}
-
-.matrix {
-    background-color: darkgreen;
-    color:chartreuse;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
 }
