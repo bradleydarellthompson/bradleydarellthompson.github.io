@@ -158,7 +158,7 @@ header nav a {
 }
 
 .project-item img {
-    width: 50%;
+    width: 60%;
     height: auto;
     border-radius: 10px;
 }
@@ -172,6 +172,10 @@ header nav a {
 @media (max-width: 768px) {
     .project-item{
         flex-direction: column;
+    }
+
+    .project-item img {
+      width: 100%;
     }
 }
 .stack {
