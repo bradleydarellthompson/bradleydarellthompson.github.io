@@ -1,119 +1,120 @@
 /* General Styling */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 960px;
+  margin: 0 auto;
+  padding:20px;
 }
 
 .section {
-    padding: 60px 0;
+  padding: 60px 0;
 }
 
 .bg-light {
-    background-color: #e2e2e2;
+  background-color: #e2e2e2;
 }
 
 /* Header Styling */
 header {
-    background-image: url("banner.bmp");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 300px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background-image: url("banner.bmp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 header h1 {
-    margin: 0;
+  margin: 0;
 }
 
 header nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 header nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 /* Skills Section Styling */
 .skills-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    text-align: left;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  text-align: left;
 }
 
 .skill-category {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 
 /*Experience Section Styling */
-    .experience-card {
-      background-color: #fff;
-      border-left: 5px solid #0078D7;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 600px;
-      border-radius: 8px;
-    }
+.experience-card {
+  background-color: #fff;
+  border-left: 5px solid #0078D7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 8px;
+}
 
-    .job-title {
-      font-size: 1.5em;
-      font-weight: bold;
-      color: #333;
-    }
+.job-title {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
 
-    .company {
-      font-size: 1.2em;
-      color: #0078D7;
-      margin-bottom: 5px;
-    }
-    .date-location {
-      font-size: 0.9em;
-      color: #666;
-      margin-bottom: 15px;
-    }
+.company {
+  font-size: 1.2em;
+  color: #0078D7;
+  margin-bottom: 5px;
+}
 
-    .description {
-      font-size: 1em;
-      color: #444;
-      line-height: 1.6;
-    }
+.date-location {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 15px;
+}
 
-    ul.responsibilities {
-      margin-top: 10px;
-      padding-left: 20px;
-    }
+.description {
+  font-size: 1em;
+  color: #444;
+  line-height: 1.6;
+}
 
-    ul.responsibilities li {
-      margin-bottom: 8px;
-    }
-    
+ul.responsibilities {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+ul.responsibilities li {
+  margin-bottom: 8px;
+}
+
 .hover-container {
   display: inline-flex;
   flex-direction: column;
@@ -147,79 +148,80 @@ header nav a {
 
 /* Projects Section Styling */
 .project-item {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .project-item img {
-    width: 60%;
-    height: auto;
-    border-radius: 10px;
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
 }
 
-.project-item text{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+.project-item text {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
 @media (max-width: 768px) {
-    .project-item{
-        flex-direction: column;
-    }
-
-    .project-item img {
-      width: 100%;
-    }
-}
-.stack {
-    display: flex;
+  .project-item {
     flex-direction: column;
-    align-items: left;
-    gap: 5px;
+  }
+
+  .project-item img {
+    width: 100%;
+  }
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 5px;
 }
 
 .project-link {
-    width: auto;
-    display: inline-block;
-    background-color: #337ab7;
-    color: #fff;
-    padding: 8px 15px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 5px;
-    margin-right: 10px;
+  width: auto;
+  display: inline-block;
+  background-color: #337ab7;
+  color: #fff;
+  padding: 8px 15px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .project-link:hover {
-    background-color: #285e8e;
+  background-color: #285e8e;
 }
 
 /* Contact Section Styling */
 .social-links a {
-    display: inline-block;
-    padding: 8px 15px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-right: 10px;
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .social-links a:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 /* Footer Styling */
 footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
-    color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
 }
