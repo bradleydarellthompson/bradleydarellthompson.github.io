@@ -169,6 +169,11 @@ header nav a {
     align-items: left;
 }
 
+@media (max-width: 768px) {
+    .project-item{
+        flex-direction: column;
+    }
+}
 .stack {
     display: flex;
     flex-direction: column;
